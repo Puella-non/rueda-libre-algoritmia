@@ -39,3 +39,31 @@ Descomposición: La atención al cliente se divide en varias partes, el cliente 
 Reconocimiento de patrones: El cliente siempre debe de atender a los cuestionamientos del cliente y proporcionar información al respecto, seguido de eso, si el cliente decide tomar el servicio, el protocolo siempre es el mismo, el vendedor proporciona el formulario, el cliente lo diligencia, posteriormente el cliente realiza el pago y el vendedor proporciona todas las indicaciones y entrega los implementos al cliente antes de que se vaya.
 Abtracción: Se ignora qué tipo de preguntas puede realizar el cliente, y el tipo de servicio que decida tomar, ya que para cada caso, la respuesta del vendedor siempre será proporcionar el formulario en donde se encapsulan los detalles necesario para adquirir el servicio y efectuar la compra.
 Algoritmos: El algoritmo final se encuentra en la carpeta algoritmos.
+
+Algoritmo:
+
+    Datos de entrada  |                    Proceso               |    Datos de salida     
+    10.000/ hora (entero)            identificar cliente               valor a pagar
+    nombre del cliente (caracter)     10.000 x horas
+    horas (entero)
+
+
+cotizacion_basica
+prueba 1:
+entrada: 1 hora
+resultado esperado: 1 x 10.0000 = 10.000
+resultado obtenido: 10.000
+
+prueba 2:
+entrada: 3 horas
+resultado esperado: 3 x 10.000 = 30.000
+resultado obtenido: 30.000
+
+prueba 3:
+entrada: 8 horas
+resultado esperado: 8 x 10.0000 = 80.0000
+resultado obtenido: 80.000
+
+Situación: ¿Qué pasa si la persona de taquilla escribe 0 o un número negativo?
+Respuesta: Si la persona de taquilla escribe cero, el valor a pagar es cero.
+           Si la persona de taquilla escribe un número negativo, el valor a pagar también se retorna negativo.
