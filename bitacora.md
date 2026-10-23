@@ -43,7 +43,7 @@ Algoritmos: El algoritmo final se encuentra en la carpeta algoritmos.
 Algoritmo:
 
     Datos de entrada  |                    Proceso               |    Datos de salida     
-    10.000/ hora (entero)            identificar cliente               valor a pagar
+    10.000/ hora (Real)             identificar cliente               valor a pagar (Real)
     nombre del cliente (caracter)     10.000 x horas
     horas (entero)
 
