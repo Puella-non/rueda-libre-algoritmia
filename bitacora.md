@@ -67,3 +67,4 @@ resultado obtenido: 80.000
 Situación: ¿Qué pasa si la persona de taquilla escribe 0 o un número negativo?
 Respuesta: Si la persona de taquilla escribe cero, el valor a pagar es cero.
            Si la persona de taquilla escribe un número negativo, el valor a pagar también se retorna negativo.
+Acción: Realizar restricciones en los datos de entrada.
